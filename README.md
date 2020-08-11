@@ -1,6 +1,8 @@
-[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=summpot&theme=cobalt)](https://github.com/anuraghazra/github-readme-stats)
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=summpot" alt="summpot" /> </p>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=summpot&theme=cobalt)](https://github.com/anuraghazra/github-readme-stats)
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=summpot&theme=cobalt" alt="summpot" /> </p>
+
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=summpot&theme=cobalt" alt="summpot" /> </p>
 
 <!--
 **Summpot/summpot** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
