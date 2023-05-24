@@ -25,5 +25,5 @@ jobs:
           source-hg-repo-url: 'https://hg.mozilla.org/comm-central'
           destination-git-repo-owner: 'Summpot'
           destination-git-repo-name: 'thunderbird'
-          destination-git-personal-token: '${{ secrets.GITHUB_TOKEN }}'
+          destination-git-personal-token: '${{ secrets.PAT }}'
           force-push: true
