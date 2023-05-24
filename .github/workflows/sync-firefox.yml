@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Sync Firefox and Thunderbird
+name: Sync Firefox
 
 on:
   workflow_dispatch:
@@ -25,14 +25,5 @@ jobs:
           source-hg-repo-url: 'https://hg.mozilla.org/mozilla-central'
           destination-git-repo-owner: 'Summpot'
           destination-git-repo-name: 'firefox'
-          destination-git-personal-token: '${{ secrets.GITHUB_TOKEN }}'
-          force-push: true
-          
-      - name: mirror ttps://hg.mozilla.org/comm-central
-        uses: 'mozillazg/mirror-hg-repo@v2'
-        with:
-          source-hg-repo-url: 'https://hg.mozilla.org/comm-central'
-          destination-git-repo-owner: 'Summpot'
-          destination-git-repo-name: 'thunderbird'
           destination-git-personal-token: '${{ secrets.GITHUB_TOKEN }}'
           force-push: true
